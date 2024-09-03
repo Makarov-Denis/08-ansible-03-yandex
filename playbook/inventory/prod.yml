@@ -1,0 +1,23 @@
+---
+clickhouse:
+  hosts:
+    clickhouse-01:
+      ansible_host: "51.250.30.198"
+      ansible_connection: ssh
+      ansible_user: admden
+      ansible_ssh_key: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIB+Un49iURjEWYb6tLytVstJT5/xZ9iTOGvo8QwLcU8a admden@admden-VirtualBox
+vector:
+  hosts:
+    clickhouse-02:
+      ansible_host: "130.193.34.182"
+      ansible_connection: ssh
+      ansible_user: admden
+      ansible_ssh_key: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIB+Un49iURjEWYb6tLytVstJT5/xZ9iTOGvo8QwLcU8a admden@admden-VirtualBox
+
+lighthouse:
+  hosts:
+    lighthouse-03:
+      ansible_host: "89.169.175.158"
+      ansible_connection: ssh
+      ansible_user: admden
+      ansible_ssh_key: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIB+Un49iURjEWYb6tLytVstJT5/xZ9iTOGvo8QwLcU8a admden@admden-VirtualBox
