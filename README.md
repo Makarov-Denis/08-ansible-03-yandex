@@ -77,3 +77,19 @@ ansible-playbook -i inventory/prod.yml site.yml
 
 Поддержка
 Если у вас возникли вопросы или проблемы с этим Playbook, пожалуйста, создайте issue в соответствующем репозитории или обратитесь к администратору вашей системы.
+
+Решение: 
+
+Выполнение задания представлено на скриншотах ниже, а также в загруженных файлах.
+
+![ansible-lint](https://github.com/user-attachments/assets/371a305b-1e6b-4ef2-a84f-5ad80726c5cf)
+
+![ansible-check](https://github.com/user-attachments/assets/2ff0bcc1-acc4-4096-b038-791f72e6a49f)
+
+![playbook](https://github.com/user-attachments/assets/1a2d5c37-7570-4dfa-8f0f-254d4cd1f30e)
+
+![2](https://github.com/user-attachments/assets/93d22516-4d1c-49d3-9fda-e04d8997eb71)
+
+
+
+
